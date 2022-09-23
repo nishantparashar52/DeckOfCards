@@ -1,0 +1,24 @@
+.showCards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 60px;
+    min-width: 50px;
+    border: 1px solid #151718;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    font-family: courier;
+    cursor: pointer;
+}
+
+span.number,
+span.suit {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 8px;
+}
